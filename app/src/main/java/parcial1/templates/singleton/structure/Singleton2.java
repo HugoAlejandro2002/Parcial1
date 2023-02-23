@@ -1,4 +1,4 @@
-package structure.singleton.structure;
+package parcial1.templates.singleton.structure;
 
 import java.util.Date;
 
