@@ -43,6 +43,7 @@ public class Cabina {
         vehiculosRegistrados.add(vehiculo);
         if(vehiculosRegistrados.size()%6 == 0){
             verPeajeRecaudado();
+            mostrarVehiculosPasados();
         }
 
     }
@@ -52,6 +53,7 @@ public class Cabina {
     }
 
     public void mostrarVehiculosPasados(){
+        System.out.println("Se registraron "+vehiculosRegistrados.size());
         for(int i=0;i<vehiculosRegistrados.size();i++){
             System.out.println("Numero "+(i+1));
             vehiculosRegistrados.get(i).showInfo();
